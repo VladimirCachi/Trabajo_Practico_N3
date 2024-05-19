@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario</title>
+		<link rel="stylesheet" href="/css/formCliente.css"></link>
+	</head>
+	<body>
+		<header>
+			<h1>Escuela de Minas</h1>
+			<nav>
+				<ul>
+					<li><a href="/">Volver</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="main">
+			<h1>Formulario de Datos</h1>
+			<form>
+				<label class="formulario" for="dni">DNI:</label>
+				<input class="formulario2" id="dni" type="number" required placeholder="Ingrese el DNI en numero" name="dni"></input><br>
+				<label class="formulario" for="nombres">Nombres:</label>
+				<input class="formulario2" id="nombres" type="text" required placeholder="Ingrese sus nombres" name="nombres"></input><br>
+				<label class="formulario" for="apellidos">Apellidos:</label>
+				<input class="formulario2" id="apellidos" type="text" required placeholder="Ingrese sus apellidos" name="apellidos"></input><br>
+				<label class="formulario" for="fechaNacimiento">Fecha de Nacimiento:</label>
+				<input class="formulario2" id="fechaNacimiento" type="date" required placeholder="Ingrese su nacimiento" name="fechaNacimiento"></input><br>
+				<label class="formulario" >Genero:</label><br>
+				<div class="genero">
+					<label for="generoM">Masculino:</label>
+					<input id="generoM" type="radio" required value="Masculino" name="genero"></input>
+					<label for="generoF">Femenino:</label>
+					<input id="generoF" type="radio" required value="Femenino" name="genero"></input>
+					<label for="generoX">X:</label>
+					<input id="generoX" type="radio" required value="X" name="genero"></input><br>
+				</div>
+				<label class="formulario" for="correoElectronico">Correo Electronico:</label>
+				<input class="formulario2" id="correoElectronico" type="email" name="correoElectronico" placeholder="Ingrese su email" required></input><br>
+				<label class="formulario" for="domicilio">Domicilio:</label>
+				<input class="formulario2" id="domicilio" type="text" placeholder="Ingrese el domicilio" name="domicilio" required></input><br>
+				<label class="formulario" for="provincia">Provincia:</label>
+				<select id="provincia" name="provincia" required>
+					<option value="Jujuy">Jujuy</option>
+					<option value="Salta">Salta</option>
+					<option value="Tucuman">Tucuman</option>
+					<option value="Chaco">Chaco</option>
+					<option value="Misiones">Misiones</option>
+				</select><br>
+				<label class="formulario" for="celular">Telefono Celular:</label>
+				<input class="formulario2" id="celular" type="number" placeholder="Ingrese el numero de celular" name="celular" required></input><br>
+				<label class="formulario" >Categorias de Interes:</label>
+				<div class="genero">
+					<label for="interesesF">Futbol:</label>
+					<input id="interesesF" type="checkbox" name="intereses"></input>
+					<label for="interesesT">Turismo:</label>
+					<input id="interesesT" type="checkbox" name="intereses"></input>
+					<label for="interesesG">Gastronomia:</label>
+					<input id="interesesG" type="checkbox" name="intereses"></input><br>
+				</div>
+				<label class="formulario" for="sugerencia">Sugerencias:</label><br>
+				<textarea id="sugerencia" placeholder="Ingrese Comentarios" name="sugerencia" rows="8" cols="40"></textarea><br>
+				<label class="formulario" for="password">Password:</label>
+				<input class="formulario2" id="password" type="password" required placeholder="Ingrese el password" name="password" maxlength="10" minlength="4"></input><br>
+				<label class="formulario" for="passwordDenuevo">Password Nuevamente:</label>
+				<input class="formulario2" id="passwordDenuevo" type="password" required placeholder="Ingrese el password denuevo" name="passwordDenuevo" maxlength="10" minlength="4"></input><br>
+				<label class="formulario" for="t&c">Acepto los terminos y Condiciones:</label>
+				<input class="formulario2" id="t&c" type="checkbox" required name="t&c"></input><br>
+				<label class="formulario" for="informacionRelativa">Acepto recibir informacion relativa a la empresa:</label>
+				<input class="formulario2" id="informacionRelativa" type="checkbox" name="InfRel"></input><br>
+				<input class="formulario2" type="button" value="Cancelar">
+				<input class="formulario2" type="submit" value="Guardar">
+			</form>
+		</main>
+		<footer>
+		<p>Informacion de Contacto Y Redes Sociales (UNJu)</p>
+        <p>Contacto: consultas@unju.edu.ar</p>
+        <p>Redes Sociales: <a href="https://www.facebook.com/universidadnacionaldejujuy/">Facebook</a>, <a href="https://twitter.com/prensaunju?lang=es">Twitter</a>, <a href="http://tv.unju.edu.ar/">YouTube</a></p>
+		</footer>
+	</body>
+</html>
