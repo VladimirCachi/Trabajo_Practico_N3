@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Imagen flotando a la derecha */
+
+
+/* Alternativa usando text-align en un contenedor */
+.img-container {
+    text-align: right;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #333;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Estilos del aside */
+aside {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+aside h2 {
+    color: #333;
+}
+
+aside img {
+    max-width: 100%;
+}
+
+/* Estilo para la imagen */
+.Imagen {
+    width: 200px; /* Ancho deseado */
+    height: 100px; /* Alto deseado */
+    object-fit: cover; /* Mantener proporciones y recortar si es necesario */
+}
+
+.Imag {
+    width: 400px; /* Ancho deseado */
+    height: 100px; /* Alto deseado */
+    object-fit: cover; /* Mantener proporciones y recortar si es necesario */
+}
+
+/* Estilos del pie de página */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+ 
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
